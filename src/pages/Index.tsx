@@ -14,7 +14,7 @@ const Index = () => {
       {/* Floating Blog Button - positioned above the bookshelf (left side) */}
       <Link
         to="/blog"
-        className="group absolute left-[3%] top-[45%] transition-transform duration-300 hover:scale-110"
+        className="group absolute left-[3%] top-[38%] transition-transform duration-300 hover:scale-110"
       >
         <div className="bg-black/80 border-4 border-white px-6 py-3 group-hover:bg-white transition-all duration-300 cursor-pointer">
           <span 
