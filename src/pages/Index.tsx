@@ -14,10 +14,13 @@ const Index = () => {
       {/* Floating Blog Button - positioned above the bookshelf (left side) */}
       <Link
         to="/blog"
-        className="absolute left-[8%] top-[35%] transform -translate-x-1/2"
+        className="group absolute left-[8%] top-[35%] transform -translate-x-1/2 transition-transform duration-300 hover:scale-110"
       >
-        <div className="bg-black/80 border-4 border-white px-6 py-3 hover:bg-white hover:text-black transition-all duration-300 cursor-pointer hover:scale-110">
-          <span className="text-white hover:text-black font-bold text-xl tracking-wider" style={{ fontFamily: "'Press Start 2P', monospace" }}>
+        <div className="bg-black/80 border-4 border-white px-6 py-3 group-hover:bg-white transition-all duration-300 cursor-pointer">
+          <span 
+            className="text-white group-hover:text-black font-bold text-xl tracking-wider transition-colors duration-300" 
+            style={{ fontFamily: "'Press Start 2P', monospace" }}
+          >
             BLOG
           </span>
         </div>
@@ -26,10 +29,13 @@ const Index = () => {
       {/* Floating Merch Button - positioned above the clothing rack (right side) */}
       <Link
         to="/merch"
-        className="absolute right-[8%] top-[35%] transform translate-x-1/2"
+        className="group absolute right-[8%] top-[35%] transform translate-x-1/2 transition-transform duration-300 hover:scale-110"
       >
-        <div className="bg-black/80 border-4 border-white px-6 py-3 hover:bg-white hover:text-black transition-all duration-300 cursor-pointer hover:scale-110">
-          <span className="text-white hover:text-black font-bold text-xl tracking-wider" style={{ fontFamily: "'Press Start 2P', monospace" }}>
+        <div className="bg-black/80 border-4 border-white px-6 py-3 group-hover:bg-white transition-all duration-300 cursor-pointer">
+          <span 
+            className="text-white group-hover:text-black font-bold text-xl tracking-wider transition-colors duration-300" 
+            style={{ fontFamily: "'Press Start 2P', monospace" }}
+          >
             MERCH
           </span>
         </div>
