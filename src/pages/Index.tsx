@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
-import backgroundImage from "@/assets/2bme-background.png";
+import backgroundVideo from "@/assets/2bme-background.mp4";
 
 const Index = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Background Image */}
-      <img
-        src={backgroundImage}
-        alt="2BME Studio"
+      {/* Background Video */}
+      <video
+        src={backgroundVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
         className="w-full h-full object-cover"
       />
 
